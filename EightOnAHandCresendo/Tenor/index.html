@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 90%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+        	<div class="swiper-slide">Eight on a Hand Cresendo Tenor A</div>	
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoA-1.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoA-2.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoA-3.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoA-4.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoA-5.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoA-6.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoA-7.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoA-8.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoA-9.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoA-10.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoA-11.png" /></div>
+            <div class="swiper-slide">Eight on a Hand Tenor B</div>	
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoB-1.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoB-2.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoB-3.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoB-4.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoB-5.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoB-6.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoB-7.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoB-8.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoB-9.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoB-10.png" /></div>
+            <div class="swiper-slide"><img src="img/EightOnAHandTenorCresendoB-11.png" /></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        direction: 'vertical'
+    });
+    </script>
+</body>
+</html>
