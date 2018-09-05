@@ -97,4 +97,13 @@ $(document).ready(function(){
     openEffect  : 'none',
     closeEffect : 'none'
   });
+    $(".text-box").fancybox({
+    fitToView : true,
+    width   : '50%',
+    height   : '75%',
+    autoSize  : true,
+    closeClick  : false,
+    openEffect  : 'none',
+    closeEffect : 'none'
+  });
 });

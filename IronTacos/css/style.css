@@ -203,11 +203,11 @@ section {
 
 */
 
-.help:before {
-  background: url("../images/help_bg_image.jpg");
+.awards:before {
+  background: url("../images/awards_irontacos.png");
 }
-.teamwork:before {
-  background: url("../images/teamwork_irontacos.png");
+.missionstatement:before {
+  background: url("../images/missionstatement_irontacos.png");
   background-position: 50% 0;
 }
 .quote:before {
@@ -221,7 +221,7 @@ section {
   display: none;
 }
 .video:before {
-  background: url("../images/video_bg_image.jpg");
+  background: url("../images/video_irontacos.png");
 }
 
 .featured-bg-image {
@@ -242,11 +242,6 @@ section {
 
 .clients {
   background-color: #f4f4f4;
-}
-
-.footer {
-  background-color: #222222;
-  color: white;
 }
 
 
